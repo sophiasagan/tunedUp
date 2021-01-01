@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "tunedupfd280bdd": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "tunes": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}

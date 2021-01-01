@@ -1,0 +1,1 @@
+{"id":"index.html","dependencies":[],"generated":{"html":"<form id=\"upload-form\">\r\n    <input type=\"file\" name=\"filename\" id=\"file-upload\" accept=\".mp3\">\r\n    <input type=\"submit\" value=\"Upload\">\r\n  </form>"},"sourceMaps":null,"error":null,"hash":"cbeb0ecec757b76d202c162e1196d67b","cacheData":{}}
