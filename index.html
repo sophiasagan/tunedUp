@@ -1,4 +1,72 @@
-<form id="upload-form">
-    <input type="file" name="filename" id="file-upload" accept=".mp3">
-    <input type="submit" value="Upload">
-  </form>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TunedUp</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>TunedUp</h1>
+    </div>
+    <div class="tag__line">
+      <h2>Your Mixtape</h2>
+    </div>
+    </div>
+    <div class="file__info">
+      <form id="upload-form">
+        <label class="custom-file-upload">
+          <input type="file" name="filename" id="file-upload" accept=".mp3" />
+          Choose a File
+        </label>
+        <input type="submit" value="Upload" />
+      </form>
+    </div>
+    <div class="tracks"></div>
+    <script src="src/script.js"></script>
+    <div class="cassette">
+      <div class="TAPEmain sideA">
+        <div class="TAPEscrew" id="TAPEscrew01"></div>
+        <div class="TAPEscrew" id="TAPEscrew02"></div>
+        <div class="TAPEscrew" id="TAPEscrew03"></div>
+        <div class="TAPEscrew" id="TAPEscrew04"></div>
+
+        <div class="TAPElabel">
+          <div class="TAPEdescription"></div>
+
+          <div class="TAPEmecha">
+            <div class="TAPEgearhole" id="TAPEgearhole01">
+              <div class="TAPEgear">
+                <div class="TAPEcog"></div>
+              </div>
+            </div>
+            <div class="TAPEgearhole" id="TAPEgearhole02">
+              <div class="TAPEgear">
+                <div class="TAPEcog"></div>
+              </div>
+            </div>
+
+            <div class="TAPEwindow">
+              <div class="TAPEwheel" id="TAPEwheel01"></div>
+              <div class="TAPEwheel" id="TAPEwheel02"></div>
+            </div>
+
+            <div class="TAPErule"></div>
+            <div class="TAPEscale">
+              <span>100</span>
+              <span>50</span>
+              <span>0</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="TAPEbump">
+          <div class="TAPEscrew" id="TAPEscrew05"></div>
+          <div class="TAPEhole" id="TAPEhole01"></div>
+          <div class="TAPEhole" id="TAPEhole02"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
