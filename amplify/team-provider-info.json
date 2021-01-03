@@ -1,20 +1,26 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-tunedup-dev-181642-authRole",
-      "UnauthRoleArn": "arn:aws:iam::291380872139:role/amplify-tunedup-dev-181642-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::291380872139:role/amplify-tunedup-dev-181642-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-tunedup-dev-181642-deployment",
-      "UnauthRoleName": "amplify-tunedup-dev-181642-unauthRole",
-      "StackName": "amplify-tunedup-dev-181642",
-      "StackId": "arn:aws:cloudformation:us-east-1:291380872139:stack/amplify-tunedup-dev-181642/6a5c1e50-4c87-11eb-b518-0efb334d2cc7",
-      "AmplifyAppId": "dbsmug58bkaib"
-    },
-    "categories": {
-      "auth": {
-        "tunedupfd280bdd": {}
-      }
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-tunedup-dev-181642-authRole",
+            "UnauthRoleArn": "arn:aws:iam::291380872139:role/amplify-tunedup-dev-181642-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::291380872139:role/amplify-tunedup-dev-181642-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-tunedup-dev-181642-deployment",
+            "UnauthRoleName": "amplify-tunedup-dev-181642-unauthRole",
+            "StackName": "amplify-tunedup-dev-181642",
+            "StackId": "arn:aws:cloudformation:us-east-1:291380872139:stack/amplify-tunedup-dev-181642/6a5c1e50-4c87-11eb-b518-0efb334d2cc7",
+            "AmplifyAppId": "dbsmug58bkaib"
+        },
+        "categories": {
+            "auth": {
+                "tunedupfd280bdd": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "dbsmug58bkaib",
+                    "type": "manual"
+                }
+            }
+        }
     }
-  }
 }
